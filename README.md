@@ -1,6 +1,8 @@
 # The Augmentation-Speed Tradeoff for Consistent Network Updates
 
 This repository provides the code for [The Augmentation-Speed Tradeoff for Consistent Network Updates](https://arxiv.org/abs/2211.03716/) paper, published in SOSR2022.
+
+
 For citation, please follow [this format](https://pourdamghani.net/_pages/SOSR22Tradeoff.bib).
 
 ## Paper abstract
