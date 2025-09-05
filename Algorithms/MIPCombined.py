@@ -201,10 +201,10 @@ def construct_constraints(instance,variables):
             #                 temp.addTerms((i-j), x[edge(1)][j])
             #                 temp.addTerms(-1,1)
             #                 instance.model.addLConstr(temp,GRB.LESS_EQUAL,dist_varaible[edge])
-            sum = gp.LinExpr()
-            for edge in graph:
-                sum.addTerms(1,dist_varaible[edge])
-            instance.model.addLConstr(sum, GRB.EQUAL, dist)
+            # sum = gp.LinExpr()
+            # for edge in graph:
+            #     sum.addTerms(1,dist_varaible[edge])
+            # instance.model.addLConstr(sum, GRB.EQUAL, dist)
 
             #Line number 10: When old edges become active
             for edge in tempOldPath:
