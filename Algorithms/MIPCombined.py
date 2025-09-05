@@ -193,14 +193,14 @@ def construct_constraints(instance,variables):
                     updated_Noupdate_until_round.addTerms(1,variables.edgeUpdate[i][r][e])
                     instance.model.addLConstr(updated_Noupdate_until_round, GRB.EQUAL, 0)
 
-            for edge in graph:
-                for i in range(number of nodes)
-                        for j in range(number of nodes)
-                            temp = gp.LinExpr()
-                            temp.addTerms((i-j),x[edge(0)][i])
-                            temp.addTerms((i-j), x[edge(1)][j])
-                            temp.addTerms(-1,1)
-                            instance.model.addLConstr(temp,GRB.LESS_EQUAL,dist_varaible[edge])
+            # for edge in graph:
+            #     for i in range(number of nodes)
+            #             for j in range(number of nodes)
+            #                 temp = gp.LinExpr()
+            #                 temp.addTerms((i-j),x[edge(0)][i])
+            #                 temp.addTerms((i-j), x[edge(1)][j])
+            #                 temp.addTerms(-1,1)
+            #                 instance.model.addLConstr(temp,GRB.LESS_EQUAL,dist_varaible[edge])
             sum = gp.LinExpr()
             for edge in graph:
                 sum.addTerms(1,dist_varaible[edge])
