@@ -18,3 +18,10 @@ Furthermore, make sure to have the Python-complaint version of [Gurobi](https://
 ### Required Dataset
 
 In this paper, we used a 218 connected and directed graphs with a maximum of 100 nodes from [The Internet Topology Zoo](https://topology-zoo.org/dataset.html).
+
+## Reproduction Steps
+
+- Please first load the zoo topologies in the [Input Generation](./InputGen) folder.
+- Then, in the "inputGen.py" file, adjust the parameters (described in the paper) based on your needs, to get an instance of the probkem.
+- Afterwards, by running "running.py" on the generated instance, you would get results in the excel format.
+- Lastly, feed the excel format to the desired visluzation code to get a final plot. 
