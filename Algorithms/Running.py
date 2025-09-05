@@ -4,7 +4,7 @@ import numpy as np
 
 
 input = np.load("1Waypoint-1.1-100Nodes-250Pairs.npy", allow_pickle=True)
-toExport = Alg.runForAllGraphs(input)
+toExport = Alg.runForAllGraphs("1Waypoint-1.1-100Nodes-250Pairs", input)
 
 df = pd.DataFrame(toExport)
 writer = pd.ExcelWriter('Test.xlsx', engine='xlsxwriter')
