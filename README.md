@@ -1,1 +1,1 @@
-The code used in [The Augmentation-Speed Tradeoff for Consistent Network Updates]([https://example.com](https://arxiv.org/abs/2211.03716/)) paper, published in SOSR2022.
+The code used in [The Augmentation-Speed Tradeoff for Consistent Network Updates](https://arxiv.org/abs/2211.03716/) paper, published in SOSR2022.
